@@ -21,6 +21,7 @@
 @property (strong, nonatomic) IBOutlet UIView *loginButton;
 @property (weak, nonatomic) IBOutlet UITextField *emailTextBox;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextbox;
+@property (weak, nonatomic) IBOutlet UIButton *forgotPasswordButton;
 
 - (void)firebaseLoginWithCredential:(FIRAuthCredential *)credential;
 

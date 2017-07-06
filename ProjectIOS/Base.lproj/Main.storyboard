@@ -60,6 +60,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="Forgot Password?"/>
+                                <connections>
+                                    <action selector="forgotPasswordPressed:" destination="ntf-gK-ui8" eventType="touchUpInside" id="pis-mN-9tk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljt-3l-UbY">
                                 <rect key="frame" x="65" y="193" width="245" height="30"/>
@@ -79,6 +82,7 @@
                     <connections>
                         <outlet property="FacebookLoginButton" destination="q7a-4e-8iB" id="s8d-a7-snP"/>
                         <outlet property="emailTextBox" destination="ub9-hq-BaN" id="QMT-NU-AHb"/>
+                        <outlet property="forgotPasswordButton" destination="Aqd-G1-y8X" id="0Q5-ed-cMZ"/>
                         <outlet property="loginButton" destination="WR0-aW-x6A" id="nZM-qD-lb5"/>
                         <outlet property="passwordTextbox" destination="5Vm-2m-oYM" id="MTW-RE-tAD"/>
                         <segue destination="kwg-8L-sAX" kind="show" identifier="ShowHome" id="czS-Fu-8mY"/>
@@ -207,7 +211,7 @@
             <objects>
                 <navigationController storyboardIdentifier="HomeNav" automaticallyAdjustsScrollViewInsets="NO" id="rjo-qU-03o" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VA2-KE-Ozy">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="VA2-KE-Ozy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

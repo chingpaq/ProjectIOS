@@ -18,15 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.navigationItem.title=@"Login";
+    
     self.navigationController.navigationBarHidden=YES;
     
     self.handle = [[FIRAuth auth]
                    addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth, FIRUser *_Nullable user) {
-                       self.navigationController.navigationBarHidden=NO;
+                       
                        
                        if (user!=nil)
                        {
+                           self.navigationController.navigationBarHidden=NO;
                            [self performSegueWithIdentifier:@"ShowHome" sender:nil];
                            
                        }
@@ -94,6 +95,9 @@
                                       NSLog(@"Account Created");
                                   }];
     }
+}
+- (IBAction)forgotPasswordPressed:(id)sender {
+[self showMessagePrompt:@"Not yet implemented"];
 }
 
 @end
