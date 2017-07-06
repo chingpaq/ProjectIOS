@@ -12,6 +12,7 @@ Written in Objective C, the project contains the following modules
 
 You will need to supply your own Facebook API and Firebase plist files and Keys
 
+Cocoapods are also needed 
 
 Enjoy!!!!
  
