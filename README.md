@@ -10,6 +10,8 @@ Written in Objective C, the project contains the following modules
 3. Dropdown Menu using REMenu
 4. Storyboard
 
+You will need to supply your own Facebook API and Firebase plist files and Keys
+
 
 Enjoy!!!!
  
