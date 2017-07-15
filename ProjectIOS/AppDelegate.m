@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  ProjectIOS
 //
-//  Created by Manuel B Parungao Jr on 03/07/2017.
+//  Created by Manuel B Parungao Jr on 03/07/2017
 //  Copyright © 2017 Manuel B Parungao Jr. All rights reserved.
 //
 
