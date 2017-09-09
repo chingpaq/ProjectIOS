@@ -28,9 +28,6 @@
 		CDD3F8181F09BC060007518C /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F8171F09BC060007518C /* MainNavigationController.m */; };
 		CDD3F81B1F09BC2A0007518C /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F81A1F09BC2A0007518C /* MainTabViewController.m */; };
 		CDD3F8281F09BCE10007518C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F81F1F09BCE10007518C /* MenuViewController.m */; };
-		CDD3F82A1F09BCE10007518C /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F8231F09BCE10007518C /* RECommonFunctions.m */; };
-		CDD3F82B1F09BCE10007518C /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F8251F09BCE10007518C /* RESideMenu.m */; };
-		CDD3F82C1F09BCE10007518C /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F8271F09BCE10007518C /* UIViewController+RESideMenu.m */; };
 		CDD65E601F0C505100D0C268 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD65E5F1F0C505100D0C268 /* LoginViewController.m */; };
 		CDD65E631F0C52A200D0C268 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD65E621F0C52A200D0C268 /* CreateAccountViewController.m */; };
 		CDD65E661F0CA8F100D0C268 /* NSObject+reSideMenuSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD65E651F0CA8F100D0C268 /* NSObject+reSideMenuSingleton.m */; };
@@ -78,12 +75,6 @@
 		CDD3F81A1F09BC2A0007518C /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
 		CDD3F81E1F09BCE10007518C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		CDD3F81F1F09BCE10007518C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		CDD3F8221F09BCE10007518C /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
-		CDD3F8231F09BCE10007518C /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
-		CDD3F8241F09BCE10007518C /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
-		CDD3F8251F09BCE10007518C /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
-		CDD3F8261F09BCE10007518C /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
-		CDD3F8271F09BCE10007518C /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		CDD65E5E1F0C505100D0C268 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CDD65E5F1F0C505100D0C268 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CDD65E611F0C52A200D0C268 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
@@ -198,25 +189,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CDD3F81C1F09BC5E0007518C /* REMenu */ = {
-			isa = PBXGroup;
-			children = (
-				CDD3F8221F09BCE10007518C /* RECommonFunctions.h */,
-				CDD3F8231F09BCE10007518C /* RECommonFunctions.m */,
-				CDD3F8241F09BCE10007518C /* RESideMenu.h */,
-				CDD3F8251F09BCE10007518C /* RESideMenu.m */,
-				CDD3F8261F09BCE10007518C /* UIViewController+RESideMenu.h */,
-				CDD3F8271F09BCE10007518C /* UIViewController+RESideMenu.m */,
-			);
-			name = REMenu;
-			sourceTree = "<group>";
-		};
 		CDD3F81D1F09BC6B0007518C /* API */ = {
 			isa = PBXGroup;
 			children = (
 				CD5D5CE01F63B36700EF1DDA /* LGSideMenuController */,
 				CDD65E671F0E734E00D0C268 /* Google */,
-				CDD3F81C1F09BC5E0007518C /* REMenu */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -368,7 +345,6 @@
 				CD5D5CDA1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.m in Sources */,
 				CD5D5CDC1F63B35E00EF1DDA /* LGSideMenuHelper.m in Sources */,
 				CDD65E601F0C505100D0C268 /* LoginViewController.m in Sources */,
-				CDD3F82A1F09BCE10007518C /* RECommonFunctions.m in Sources */,
 				CDD3F81B1F09BC2A0007518C /* MainTabViewController.m in Sources */,
 				CDD3F8011F09BA6D0007518C /* AppDelegate.m in Sources */,
 				CDD65E661F0CA8F100D0C268 /* NSObject+reSideMenuSingleton.m in Sources */,
@@ -378,11 +354,9 @@
 				CDD3F8151F09BB570007518C /* HomeViewController.m in Sources */,
 				CDD3F8181F09BC060007518C /* MainNavigationController.m in Sources */,
 				CD5D5CD91F63B35E00EF1DDA /* LGSideMenuController.m in Sources */,
-				CDD3F82B1F09BCE10007518C /* RESideMenu.m in Sources */,
 				CDD3F8281F09BCE10007518C /* MenuViewController.m in Sources */,
 				CD5D5CDB1F63B35E00EF1DDA /* LGSideMenuBorderView.m in Sources */,
 				CD5D5CDD1F63B35E00EF1DDA /* LGSideMenuSegue.m in Sources */,
-				CDD3F82C1F09BCE10007518C /* UIViewController+RESideMenu.m in Sources */,
 				CD5D5CDE1F63B35E00EF1DDA /* LGSideMenuView.m in Sources */,
 				CD5D5CDF1F63B35E00EF1DDA /* UIViewController+LGSideMenuController.m in Sources */,
 			);
