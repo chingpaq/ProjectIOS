@@ -11,7 +11,7 @@
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.878744953381-l9o8fruddoddplrpb6fv1b25vpbrv4jd</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAz346hXjtgblFHyQDOWtcT0Pod9ecs2iw</string>
+	<string>1</string>
 	<key>GCM_SENDER_ID</key>
 	<string>878744953381</string>
 	<key>PLIST_VERSION</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:878744953381:ios:315ae68dab584f67</string>
+	<string>1</string>
 	<key>DATABASE_URL</key>
-	<string>https://projectios-cac6e.firebaseio.com</string>
+	<string>xx</string>
 </dict>
 </plist>
