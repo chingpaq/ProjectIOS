@@ -20,7 +20,6 @@
     
     
     self.navigationController.navigationBarHidden=YES;
-    
     self.handle = [[FIRAuth auth]
                    addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth, FIRUser *_Nullable user) {
                        
@@ -67,18 +66,21 @@
 - (IBAction)loginWasPressed:(id)sender {
     
     [SVProgressHUD show];
-    [[FIRAuth auth] signInWithEmail:self.emailTextBox.text
-                           password:self.passwordTextbox.text
-                         completion:^(FIRUser *user, NSError *error) {
-                             [SVProgressHUD dismiss];
-                             
-                             if (error) {
-                                 
-                                 [self showMessagePrompt:error.localizedDescription];
-                                 return;
-                             }
-                             
-                         }];
+//    [[FIRAuth auth] signInWithEmail:self.emailTextBox.text
+//                           password:self.passwordTextbox.text
+//                         completion:^(FIRUser *user, NSError *error) {
+//                             [SVProgressHUD dismiss];
+//                             
+//                             if (error) {
+//                                 
+//                                 [self showMessagePrompt:error.localizedDescription];
+//                                 return;
+//                             }
+//                             
+//                         }];
+    self.navigationController.navigationBarHidden=NO;
+    [self performSegueWithIdentifier:@"ShowHome" sender:nil];
+
 }
 
 - (void)firebaseLoginWithCredential:(FIRAuthCredential *)credential

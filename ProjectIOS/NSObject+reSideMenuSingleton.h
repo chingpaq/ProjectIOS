@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "RESideMenu.h"
 #import "MenuViewController.h"
+#import "MainViewController.h"
 
 @interface reSideMenuSingleton:NSObject
 + (id)sharedManager;
@@ -17,4 +18,5 @@
 @property(nonatomic, strong) RESideMenu *sideMenuViewController;
 @property(nonatomic, strong) UIStoryboard* _mainStoryBoard;
 @property(nonatomic, strong) UIViewController *vc;
+@property(nonatomic,strong)MainViewController *mainViewController;
 @end

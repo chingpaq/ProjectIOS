@@ -43,8 +43,17 @@ static reSideMenuSingleton *manager = nil;
         self.vc = [self._mainStoryBoard instantiateViewControllerWithIdentifier:@"HomeNav"];
         
         
-        MenuViewController *leftMenuViewController = [[MenuViewController alloc] init];
-        self.sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:self.vc leftMenuViewController:leftMenuViewController rightMenuViewController:nil];
+//        MenuViewController *leftMenuViewController = [[MenuViewController alloc] init];
+//        self.sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:self.vc leftMenuViewController:leftMenuViewController rightMenuViewController:nil];
+//        
+//        
+        
+        self.mainViewController = [MainViewController new];
+        self.mainViewController.rootViewController = self.vc;
+        [self.mainViewController setupWithType:TypeSlideAbove];
+        
+        
+        
     }
     return self;
 }

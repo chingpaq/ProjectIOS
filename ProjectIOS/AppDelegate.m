@@ -38,11 +38,13 @@
     if ([key length] && [secret length]) {
         [[Twitter sharedInstance] startWithConsumerKey:key consumerSecret:secret];
     }
-    [reSideMenuSingleton sharedManager];
     [self configureSVProgressHUD];
     
+    [reSideMenuSingleton sharedManager];
+    //[self.window setRootViewController:[[reSideMenuSingleton sharedManager]sideMenuViewController]];
+    [self.window setRootViewController:[[reSideMenuSingleton sharedManager]mainViewController]];
     
-    [self.window setRootViewController:[[reSideMenuSingleton sharedManager]sideMenuViewController]];
+    
     return YES;
 }
 

@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		384B2B99EE69A4EBE9941DD9 /* Pods_ProjectIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2790BFB420F895DF68F3AA46 /* Pods_ProjectIOS.framework */; };
 		CD5B3BC41F0AA9E40072DF56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD5B3BC31F0AA9E40072DF56 /* GoogleService-Info.plist */; };
+		CD5D5CD91F63B35E00EF1DDA /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CCC1F63B35E00EF1DDA /* LGSideMenuController.m */; };
+		CD5D5CDA1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CCE1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.m */; };
+		CD5D5CDB1F63B35E00EF1DDA /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CD01F63B35E00EF1DDA /* LGSideMenuBorderView.m */; };
+		CD5D5CDC1F63B35E00EF1DDA /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CD21F63B35E00EF1DDA /* LGSideMenuHelper.m */; };
+		CD5D5CDD1F63B35E00EF1DDA /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CD41F63B35E00EF1DDA /* LGSideMenuSegue.m */; };
+		CD5D5CDE1F63B35E00EF1DDA /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CD61F63B35E00EF1DDA /* LGSideMenuView.m */; };
+		CD5D5CDF1F63B35E00EF1DDA /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CD81F63B35E00EF1DDA /* UIViewController+LGSideMenuController.m */; };
+		CD5D5CE31F6414A000EF1DDA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CE21F6414A000EF1DDA /* MainViewController.m */; };
+		CD5D5CE61F64153800EF1DDA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5D5CE51F64153800EF1DDA /* LeftViewController.m */; };
 		CDD3F7FE1F09BA6D0007518C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F7FD1F09BA6D0007518C /* main.m */; };
 		CDD3F8011F09BA6D0007518C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F8001F09BA6D0007518C /* AppDelegate.m */; };
 		CDD3F8041F09BA6D0007518C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD3F8031F09BA6D0007518C /* ViewController.m */; };
@@ -33,6 +42,24 @@
 		304BE45A2092AFDC4A24DFA2 /* Pods-ProjectIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectIOS/Pods-ProjectIOS.release.xcconfig"; sourceTree = "<group>"; };
 		63162146EC6C78817BE0783C /* Pods-ProjectIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectIOS/Pods-ProjectIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CD5B3BC31F0AA9E40072DF56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD5D5CCB1F63B35E00EF1DDA /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		CD5D5CCC1F63B35E00EF1DDA /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		CD5D5CCD1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+		CD5D5CCE1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		CD5D5CCF1F63B35E00EF1DDA /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		CD5D5CD01F63B35E00EF1DDA /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		CD5D5CD11F63B35E00EF1DDA /* LGSideMenuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuHelper.h; sourceTree = "<group>"; };
+		CD5D5CD21F63B35E00EF1DDA /* LGSideMenuHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuHelper.m; sourceTree = "<group>"; };
+		CD5D5CD31F63B35E00EF1DDA /* LGSideMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuSegue.h; sourceTree = "<group>"; };
+		CD5D5CD41F63B35E00EF1DDA /* LGSideMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuSegue.m; sourceTree = "<group>"; };
+		CD5D5CD51F63B35E00EF1DDA /* LGSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuView.h; sourceTree = "<group>"; };
+		CD5D5CD61F63B35E00EF1DDA /* LGSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuView.m; sourceTree = "<group>"; };
+		CD5D5CD71F63B35E00EF1DDA /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		CD5D5CD81F63B35E00EF1DDA /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		CD5D5CE11F6414A000EF1DDA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD5D5CE21F6414A000EF1DDA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CD5D5CE41F64153800EF1DDA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		CD5D5CE51F64153800EF1DDA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		CDD3F7F91F09BA6D0007518C /* ProjectIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD3F7FD1F09BA6D0007518C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDD3F7FF1F09BA6D0007518C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +115,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CD5D5CE01F63B36700EF1DDA /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D5CCB1F63B35E00EF1DDA /* LGSideMenuController.h */,
+				CD5D5CCC1F63B35E00EF1DDA /* LGSideMenuController.m */,
+				CD5D5CCD1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.h */,
+				CD5D5CCE1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.m */,
+				CD5D5CCF1F63B35E00EF1DDA /* LGSideMenuBorderView.h */,
+				CD5D5CD01F63B35E00EF1DDA /* LGSideMenuBorderView.m */,
+				CD5D5CD11F63B35E00EF1DDA /* LGSideMenuHelper.h */,
+				CD5D5CD21F63B35E00EF1DDA /* LGSideMenuHelper.m */,
+				CD5D5CD31F63B35E00EF1DDA /* LGSideMenuSegue.h */,
+				CD5D5CD41F63B35E00EF1DDA /* LGSideMenuSegue.m */,
+				CD5D5CD51F63B35E00EF1DDA /* LGSideMenuView.h */,
+				CD5D5CD61F63B35E00EF1DDA /* LGSideMenuView.m */,
+				CD5D5CD71F63B35E00EF1DDA /* UIViewController+LGSideMenuController.h */,
+				CD5D5CD81F63B35E00EF1DDA /* UIViewController+LGSideMenuController.m */,
+			);
+			name = LGSideMenuController;
+			sourceTree = "<group>";
+		};
 		CDD3F7F01F09BA6D0007518C = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +176,10 @@
 				CDD3F81A1F09BC2A0007518C /* MainTabViewController.m */,
 				CDD65E641F0CA8F100D0C268 /* NSObject+reSideMenuSingleton.h */,
 				CDD65E651F0CA8F100D0C268 /* NSObject+reSideMenuSingleton.m */,
+				CD5D5CE41F64153800EF1DDA /* LeftViewController.h */,
+				CD5D5CE51F64153800EF1DDA /* LeftViewController.m */,
+				CD5D5CE11F6414A000EF1DDA /* MainViewController.h */,
+				CD5D5CE21F6414A000EF1DDA /* MainViewController.m */,
 				CDD3F8051F09BA6D0007518C /* Main.storyboard */,
 				CDD3F8081F09BA6D0007518C /* Assets.xcassets */,
 				CDD3F80A1F09BA6D0007518C /* LaunchScreen.storyboard */,
@@ -162,6 +214,7 @@
 		CDD3F81D1F09BC6B0007518C /* API */ = {
 			isa = PBXGroup;
 			children = (
+				CD5D5CE01F63B36700EF1DDA /* LGSideMenuController */,
 				CDD65E671F0E734E00D0C268 /* Google */,
 				CDD3F81C1F09BC5E0007518C /* REMenu */,
 			);
@@ -219,6 +272,7 @@
 				TargetAttributes = {
 					CDD3F7F81F09BA6D0007518C = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CYAPVX6BEE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -311,17 +365,26 @@
 				CDD3F8041F09BA6D0007518C /* ViewController.m in Sources */,
 				CDD65E6A1F0E736B00D0C268 /* UIViewController+Alerts.m in Sources */,
 				CDD65E631F0C52A200D0C268 /* CreateAccountViewController.m in Sources */,
+				CD5D5CDA1F63B35E00EF1DDA /* LGSideMenuGesturesHandler.m in Sources */,
+				CD5D5CDC1F63B35E00EF1DDA /* LGSideMenuHelper.m in Sources */,
 				CDD65E601F0C505100D0C268 /* LoginViewController.m in Sources */,
 				CDD3F82A1F09BCE10007518C /* RECommonFunctions.m in Sources */,
 				CDD3F81B1F09BC2A0007518C /* MainTabViewController.m in Sources */,
 				CDD3F8011F09BA6D0007518C /* AppDelegate.m in Sources */,
 				CDD65E661F0CA8F100D0C268 /* NSObject+reSideMenuSingleton.m in Sources */,
 				CDD3F7FE1F09BA6D0007518C /* main.m in Sources */,
+				CD5D5CE61F64153800EF1DDA /* LeftViewController.m in Sources */,
+				CD5D5CE31F6414A000EF1DDA /* MainViewController.m in Sources */,
 				CDD3F8151F09BB570007518C /* HomeViewController.m in Sources */,
 				CDD3F8181F09BC060007518C /* MainNavigationController.m in Sources */,
+				CD5D5CD91F63B35E00EF1DDA /* LGSideMenuController.m in Sources */,
 				CDD3F82B1F09BCE10007518C /* RESideMenu.m in Sources */,
 				CDD3F8281F09BCE10007518C /* MenuViewController.m in Sources */,
+				CD5D5CDB1F63B35E00EF1DDA /* LGSideMenuBorderView.m in Sources */,
+				CD5D5CDD1F63B35E00EF1DDA /* LGSideMenuSegue.m in Sources */,
 				CDD3F82C1F09BCE10007518C /* UIViewController+RESideMenu.m in Sources */,
+				CD5D5CDE1F63B35E00EF1DDA /* LGSideMenuView.m in Sources */,
+				CD5D5CDF1F63B35E00EF1DDA /* UIViewController+LGSideMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,10 +505,10 @@
 			baseConfigurationReference = 63162146EC6C78817BE0783C /* Pods-ProjectIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CYAPVX6BEE;
 				INFOPLIST_FILE = ProjectIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mp.com.ProjectIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risemovement.EveryElection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -455,10 +518,10 @@
 			baseConfigurationReference = 304BE45A2092AFDC4A24DFA2 /* Pods-ProjectIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CYAPVX6BEE;
 				INFOPLIST_FILE = ProjectIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mp.com.ProjectIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risemovement.EveryElection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

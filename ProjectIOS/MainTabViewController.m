@@ -7,6 +7,8 @@
 //
 
 #import "MainTabViewController.h"
+#import "UIViewController+LGSideMenuController.h"
+
 
 @implementation UITabBarController (MainTabViewController)
 
@@ -17,11 +19,18 @@
                                                                                                   style:UIBarButtonItemStylePlain
                                                                                                  target:self
                                                                                                  action:@selector(presentLeftMenuViewController:)];
-    
 
 }
 -(void)viewDidAppear:(BOOL)animated
 {
     
 }
+
+- (void)presentLeftMenuViewController:(id)sender
+{
+    [self.sideMenuController showLeftViewAnimated:YES completionHandler:nil];
+}
+
 @end
+
+

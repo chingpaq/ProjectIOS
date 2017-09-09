@@ -14,6 +14,7 @@ pod 'GoogleSignIn'
 # [END google_pod]
 pod 'TwitterKit'
 pod 'SVProgressHUD'
+pod 'SCLAlertView-Objective-C'
 
 target 'ProjectIOS' do
 end
